@@ -1,2 +1,65 @@
 # Project-1
-Project 1
+Project 1 - Traffic Cameras and Public Safety in the City of Chicago  
+
+**Contents:**  
+* code/  
+  * AccidentsInjuriesFatalitiesbyCamera.ipynb  
+  * Congestion.ipynb  
+  * Crashes_Cameras.ipynb  
+  * final_crash_code.ipynb  
+  * Heatmaps.ipynb  
+  * Region_Polygons.ipynb  
+  * speeding_map.ipynb  
+* output/  
+  * AccidentsPerCamera.png  
+  * Accidents_by_Region.png  
+  * Accidents_by_Region_Scaled.png  
+  * AGE.png  
+  * BAC_bargraph.png  
+  * CIFTotal_Pie.png  
+  * Congestion_by_Hour2.png  
+  * Crashes_and_Congestion_by_Hour.png  
+  * Crashes_by_Hour2.png  
+  * Crashes_vs_Red_Light_Cams.png  
+  * Crashes_vs_Speed_Cams.png  
+  * Crash_Heatmap_offset.png  
+  * Crash_Heatmap_w_cams_offset.png  
+  * Drunk_Crashes_by_Region_offset.png  
+  * FatalitiesPerAccidentPerCamera.png  
+  * FatalitiesPerCamera.png  
+  * Fatalities_Per_Accident_by_Region.png  
+  * InjuresFatalitiesRedLight.png  
+  * InjuriesFatalitiesbyCameras.png  
+  * InjuriesFatalitiesSpeedCameras.png  
+  * InjuriesPerAccidentPerCamera.png  
+  * InjuriesPerCamera.png  
+  * Injuries_and_Fatalities_by_Region.png  
+  * Injuries_Per_Accident_by_Region.png  
+  * Lighting_Conditions_Pie.png  
+  * pairplot.png  
+  * primary_cause.png  
+  * RedlightCamerasBar.png  
+  * Regions_Cameras_offset.png  
+  * Regions_offset.png  
+  * SelectedRegions.png  
+  * SpeedCamerasBar.png  
+  * SpeedLimit.png  
+  * TotalCamerasBar.png  
+  * weather_monthly_bar.png  
+* resources/  
+  * AccidentsInjuriesCamerasSummary.csv  
+  * Chicago_Traffic_Tracker_-_Congestion_Estimates_by_Regions.csv  
+  * Congestion_by_Region.csv  
+  * Crashes_by_hour2.csv  
+  * Crashes_Region.csv  
+  * Crashes_w_Region_cleaned_filtered.csv  
+  * organized_df.csv  
+  * RedLightCameraLocations.csv  
+  * Red_Light_Cam_Region.csv  
+  * region_bac_count.csv  
+  * Region_Summary.csv  
+  * SpeedCameraLocations.csv  
+  * Speed_Cam_Region.csv  
+  * Traffic_Crashes_-_Crashes_2017-2018.csv  
+* Chicago_Traffic_Safety.pptx  
+* Project-1_Report.docx
