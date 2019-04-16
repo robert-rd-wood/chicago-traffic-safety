@@ -88,7 +88,7 @@ Study of traffic in the City of Chicago, including congestion, crash, and traffi
 
   There is poor correlation in both cases. (r for injuries is -.13, r for fatalities is -.25). Overall the rate of injuries is not dependent on the amount of traffic cameras present in a region.  
 
-  <img src="output/Injuries_Per_Accident_by_Region.png" alt="Injuries Per Accident by Region" height="70%" width="70%">
+  <img src="output/Injuries_Per_Accident_by_Region.png" alt="Injuries Per Accident by Region" height="60%" width="60%">
 
   ![alt text](output/Cameras_by_Region.png "Cameras by Region")
 
