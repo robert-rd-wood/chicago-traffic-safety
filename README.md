@@ -1,6 +1,8 @@
 # Traffic Cameras and Public Safety in the City of Chicago  
 
-<img src="output/Flag_of_Chicago.png" alt="City of Chicago Flag" height="50%" width="50%" align="center">
+<p align="center">
+<img src="output/Flag_of_Chicago.png" alt="City of Chicago Flag" height="50%" width="50%">
+</p>
 
 ## Description
 Study of traffic in the City of Chicago, including congestion, crash, and traffic camera data, all of which has been made publicly available by the City of Chicago.  
