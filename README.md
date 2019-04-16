@@ -24,28 +24,28 @@ Study of traffic in the City of Chicago, including congestion, crash, and traffi
 * Pair plot using available variables to visualize possible correlation  
 * Possible correlation was observed between crash count and red light cameras, as well as crash count and speed cameras  
 
- ![alt text](output/pairplot.png "Pair Plot")
+  ![alt text](output/pairplot.png "Pair Plot")
 
 ## Questions and Conclusions
-1.	In what areas are crashes more/less common?  
+**1. In what areas are crashes more/less common?**  
 
- ![alt text](output/Slide-Crash_Heatmap_w_cams_offset.png "Crash Heatmap")
+  ![alt text](output/Slide-Crash_Heatmap_w_cams_offset.png "Crash Heatmap")
 
-2.	Is there a correlation between crashes and red light cameras?  Crashes and speed cameras?  
+**2. Is there a correlation between crashes and red light cameras?  Crashes and speed cameras?**  
 
- ![alt text](output/Crashes_vs_Red_Light_Cams.png "Traffic Crashes vs. Red Light Cameras")
+  ![alt text](output/Crashes_vs_Red_Light_Cams.png "Traffic Crashes vs. Red Light Cameras")
 
- There is a strong correlation between number of red light cameras and crashes  
- r = 0.80  
- p = 2.35e-07  
+  There is a strong correlation between number of red light cameras and crashes  
+  r = 0.80  
+  p = 2.35e-07  
 
- ![alt text](output/Crashes_vs_Speed_Cams.png "Traffic Crashes vs. Speed Cameras")
+  ![alt text](output/Crashes_vs_Speed_Cams.png "Traffic Crashes vs. Speed Cameras")
 
- There is a strong correlation between number of speed cameras and crashes  
- r = 0.71  
- p = 1.43e-05  
+  There is a strong correlation between number of speed cameras and crashes  
+  r = 0.71  
+  p = 1.43e-05  
 
- Note: Due to lack of available crash data prior to camera installation, not possible to prove causation or effect of camera installation on crash levels  
+  Note: Due to lack of available crash data prior to camera installation, not possible to prove causation or effect of camera installation on crash levels  
 
 3.	What is the average congestion level hour by hour?  Does this correlate to the number of crashes?  
 
