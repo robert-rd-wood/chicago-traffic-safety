@@ -1,7 +1,5 @@
 # Traffic Cameras and Public Safety in the City of Chicago  
 
-![alt text](output/Flag_of_Chicago.png "City of Chicago Flag")
-
 <img src="output/Flag_of_Chicago.png" alt="City of Chicago Flag" height="50%" width="50%" align="middle">
 
 ## Description
