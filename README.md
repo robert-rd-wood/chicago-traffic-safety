@@ -1,4 +1,4 @@
-![alt text](paste_link_here "City of Chicago Flag")
+![alt text](output/Flag_of_Chicago.png "City of Chicago Flag")
 
 # Traffic Cameras and Public Safety in the City of Chicago  
 
@@ -59,7 +59,7 @@ p = 6.15e-13
 ![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/BAC_bargraph.png "Car Crashes by Blood Alcohol Concentration (BAC)")
 
 ![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/Slide-Drunk_Crashes_by_Region_offset.png "Choropleth Map - Traffic Crashes Involving Drunk Drivers (BAC > .08)")
- 
+
 5.	What is the most common cause of crashes?  What age driver is most likely to be involved in a crash?  
 
 ![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/primary_cause.png "Pareto - Primary Cause of Car Crash")
@@ -121,6 +121,7 @@ There is poor correlation in both cases. (r for injuries is -.13, r for fataliti
   * FatalitiesPerAccidentPerCamera.png  
   * FatalitiesPerCamera.png  
   * Fatalities_Per_Accident_by_Region.png  
+  * Flag_of_Chicago.png  
   * InjuresFatalitiesRedLight.png  
   * InjuriesFatalitiesbyCameras.png  
   * InjuriesFatalitiesSpeedCameras.png  
