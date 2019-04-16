@@ -1,6 +1,6 @@
-![alt text](output/Flag_of_Chicago.png "City of Chicago Flag")
-
 # Traffic Cameras and Public Safety in the City of Chicago  
+
+![alt text](output/Flag_of_Chicago.png "City of Chicago Flag")
 
 ## Description
 Study of traffic in the City of Chicago, including congestion, crash, and traffic camera data, all of which has been made publicly available by the City of Chicago.  
@@ -47,42 +47,42 @@ Study of traffic in the City of Chicago, including congestion, crash, and traffi
 
   Note: Due to lack of available crash data prior to camera installation, not possible to prove causation or effect of camera installation on crash levels  
 
-3.	What is the average congestion level hour by hour?  Does this correlate to the number of crashes?  
+**3. What is the average congestion level hour by hour?  Does this correlate to the number of crashes?**  
 
-![alt text](output/Crashes_and_Congestion_by_Hour.png "Average Crashes and Congestion by Hour")
+  ![alt text](output/Crashes_and_Congestion_by_Hour.png "Average Crashes and Congestion by Hour")
 
-Trend shows higher congestion levels during standard morning and evening commutes, as expected.  There is an extremely strong correlation between congestion and crashes by time of day.  
-r = 0.95  
-p = 6.15e-13  
+  Trend shows higher congestion levels during standard morning and evening commutes, as expected.  There is an extremely strong correlation between congestion and crashes by time of day.  
+  r = 0.95  
+  p = 6.15e-13  
 
-4.	In what areas are drunk-driving accidents more/less common?  
+**4. In what areas are drunk-driving accidents more/less common?**  
 
-![alt text](output/BAC_bargraph.png "Car Crashes by Blood Alcohol Concentration (BAC)")
+  ![alt text](output/BAC_bargraph.png "Car Crashes by Blood Alcohol Concentration (BAC)")
 
-![alt text](output/Slide-Drunk_Crashes_by_Region_offset.png "Choropleth Map - Traffic Crashes Involving Drunk Drivers (BAC > .08)")
+  ![alt text](output/Slide-Drunk_Crashes_by_Region_offset.png "Choropleth Map - Traffic Crashes Involving Drunk Drivers (BAC > .08)")
 
-5.	What is the most common cause of crashes?  What age driver is most likely to be involved in a crash?  
+**5. What is the most common cause of crashes?  What age driver is most likely to be involved in a crash?**  
 
-![alt text](output/primary_cause.png "Pareto - Primary Cause of Car Crash")
+  ![alt text](output/primary_cause.png "Pareto - Primary Cause of Car Crash")
 
-![alt text](output/AGE.png "Distribution - Age of Driver")
+  ![alt text](output/AGE.png "Distribution - Age of Driver")
 
-The average age of a driver involved in a crash in Chicago is significantly lower than the average age of all drivers in Illinois.  
-p = 0.0023588  
+  The average age of a driver involved in a crash in Chicago is significantly lower than the average age of all drivers in Illinois.  
+  p = 0.0023588  
  
-6.	Is there a correlation between cameras and severity of accidents?
+**6. Is there a correlation between cameras and severity of accidents?**  
 
-![alt text](output/InjuriesFatalitiesbyCameras.png "Injuries and Fatalitites Per Accident by Total Cameras in Region")
+  ![alt text](output/InjuriesFatalitiesbyCameras.png "Injuries and Fatalitites Per Accident by Total Cameras in Region")
 
-There is poor correlation in both cases. (r for injuries is -.13, r for fatalities is -.25). Overall the rate of injuries is not dependent on the amount of traffic cameras present in a region.  
+  There is poor correlation in both cases. (r for injuries is -.13, r for fatalities is -.25). Overall the rate of injuries is not dependent on the amount of traffic cameras present in a region.  
 
-![alt text](output/Injuries_Per_Accident_by_Region.png "Injuries Per Accident by Region")
+  ![alt text](output/Injuries_Per_Accident_by_Region.png "Injuries Per Accident by Region")
 
-![alt text](output/Cameras_by_Region.png "Cameras by Region")
+  ![alt text](output/Cameras_by_Region.png "Cameras by Region")
 
-7.	Is speeding a main contributor to crashes and in what areas are accidents involving speeding more/less common?
+**7. Is speeding a main contributor to crashes and in what areas are accidents involving speeding more/less common?**  
 
-![alt text](output/Slide-Speeding_Crash_Heatmap_offset.png "Heatmap of Accidents Involving Speeding")
+  ![alt text](output/Slide-Speeding_Crash_Heatmap_offset.png "Heatmap of Accidents Involving Speeding")
 
 ## Possible Uses
 * Public safety  
