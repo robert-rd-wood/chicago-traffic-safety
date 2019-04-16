@@ -6,7 +6,7 @@
 Study of traffic in the City of Chicago, including congestion, crash, and traffic camera data, all of which has been made publicly available by the City of Chicago.  
 
 ## Data Sources
-  * data.cityofchicago.org  
+  * [data.cityofchicago.org](http://data.cityofchicago.org)  
   * www.fhwa.dot.gov  
 
 ## Process
@@ -24,21 +24,21 @@ Study of traffic in the City of Chicago, including congestion, crash, and traffi
 * Pair plot using available variables to visualize possible correlation  
 * Possible correlation was observed between crash count and red light cameras, as well as crash count and speed cameras  
 
-![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/pairplot.png "Pair Plot")
+![alt text](output/pairplot.png "Pair Plot")
 
 ## Questions and Conclusions
 1.	In what areas are crashes more/less common?  
-![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/Slide-Crash_Heatmap_w_cams_offset.png "Crash Heatmap")
+![alt text](output/Slide-Crash_Heatmap_w_cams_offset.png "Crash Heatmap")
 
 2.	Is there a correlation between crashes and red light cameras?  Crashes and speed cameras?  
 
-![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/Crashes_vs_Red_Light_Cams.png "Traffic Crashes vs. Red Light Cameras")
+![alt text](output/Crashes_vs_Red_Light_Cams.png "Traffic Crashes vs. Red Light Cameras")
 
 There is a strong correlation between number of red light cameras and crashes  
 r = 0.80  
 p = 2.35e-07  
 
-![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/Crashes_vs_Speed_Cams.png "Traffic Crashes vs. Speed Cameras")
+![alt text](output/Crashes_vs_Speed_Cams.png "Traffic Crashes vs. Speed Cameras")
 
 There is a strong correlation between number of speed cameras and crashes  
 r = 0.71  
@@ -48,7 +48,7 @@ Note: Due to lack of available crash data prior to camera installation, not poss
 
 3.	What is the average congestion level hour by hour?  Does this correlate to the number of crashes?  
 
-![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/Crashes_and_Congestion_by_Hour.png "Average Crashes and Congestion by Hour")
+![alt text](output/Crashes_and_Congestion_by_Hour.png "Average Crashes and Congestion by Hour")
 
 Trend shows higher congestion levels during standard morning and evening commutes, as expected.  There is an extremely strong correlation between congestion and crashes by time of day.  
 r = 0.95  
@@ -56,32 +56,32 @@ p = 6.15e-13
 
 4.	In what areas are drunk-driving accidents more/less common?  
 
-![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/BAC_bargraph.png "Car Crashes by Blood Alcohol Concentration (BAC)")
+![alt text](output/BAC_bargraph.png "Car Crashes by Blood Alcohol Concentration (BAC)")
 
-![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/Slide-Drunk_Crashes_by_Region_offset.png "Choropleth Map - Traffic Crashes Involving Drunk Drivers (BAC > .08)")
+![alt text](output/Slide-Drunk_Crashes_by_Region_offset.png "Choropleth Map - Traffic Crashes Involving Drunk Drivers (BAC > .08)")
 
 5.	What is the most common cause of crashes?  What age driver is most likely to be involved in a crash?  
 
-![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/primary_cause.png "Pareto - Primary Cause of Car Crash")
+![alt text](output/primary_cause.png "Pareto - Primary Cause of Car Crash")
 
-![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/AGE.png "Distribution - Age of Driver")
+![alt text](output/AGE.png "Distribution - Age of Driver")
 
 The average age of a driver involved in a crash in Chicago is significantly lower than the average age of all drivers in Illinois.  
 p = 0.0023588  
  
 6.	Is there a correlation between cameras and severity of accidents?
 
-![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/InjuriesFatalitiesbyCameras.png "Injuries and Fatalitites Per Accident by Total Cameras in Region")
+![alt text](output/InjuriesFatalitiesbyCameras.png "Injuries and Fatalitites Per Accident by Total Cameras in Region")
 
 There is poor correlation in both cases. (r for injuries is -.13, r for fatalities is -.25). Overall the rate of injuries is not dependent on the amount of traffic cameras present in a region.  
 
-![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/Injuries_Per_Accident_by_Region.png "Injuries Per Accident by Region")
+![alt text](output/Injuries_Per_Accident_by_Region.png "Injuries Per Accident by Region")
 
-![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/Cameras_by_Region.png "Cameras by Region")
+![alt text](output/Cameras_by_Region.png "Cameras by Region")
 
 7.	Is speeding a main contributor to crashes and in what areas are accidents involving speeding more/less common?
 
-![alt text](https://github.com/robert-rd-wood/Project-1/tree/master/output/Slide-Speeding_Crash_Heatmap_offset.png "Heatmap of Accidents Involving Speeding")
+![alt text](output/Slide-Speeding_Crash_Heatmap_offset.png "Heatmap of Accidents Involving Speeding")
 
 ## Possible Uses
 * Public safety  
